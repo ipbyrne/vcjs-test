@@ -1,14 +1,14 @@
-import credsv1 from "./credentials-v1.json" assert { type: 'json' };
-import didsv1 from "./did-v1.json" assert { type: 'json' };
+import credsv1 from "./credentials-v1.json";
+import didsv1 from "./did-v1.json";
 
-import jwsv1 from "./jws-v1.json" assert { type: 'json' };
-import revv1 from "./rev-v1.json" assert { type: 'json' };
-import ed25519v1 from "./ed25519-v1.json" assert { type: 'json' };
-import x25519v1 from "./x25519-v1.json" assert { type: 'json' };
-import secv2 from "./sec-v2.json" assert { type: 'json' };
-import secv1 from "./sec-v1.json" assert { type: 'json' };
+import jwsv1 from "./jws-v1.json";
+import revv1 from "./rev-v1.json";
+import ed25519v1 from "./ed25519-v1.json";
+import x25519v1 from "./x25519-v1.json";
+import secv2 from "./sec-v2.json";
+import secv1 from "./sec-v1.json";
 
-import didConfigv1 from "./did-config-v1.json" assert { type: 'json' };
+import didConfigv1 from "./did-config-v1.json";
 
 export const contexts = {
   "https://www.w3.org/2018/credentials/v1": credsv1,

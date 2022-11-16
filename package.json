@@ -1,8 +1,8 @@
 {
-    "name": "docker_web_app",
+    "name": "vcjs-test",
     "version": "1.0.0",
     "description": "Node.js on Docker",
-    "author": "First Last <first.last@example.com>",
+    "author": "Isaac Byrne",
     "main": "server.js",
     "type": "module",
     "scripts": {

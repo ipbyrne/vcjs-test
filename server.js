@@ -43,7 +43,10 @@ app.get('/', async (req, res) => {
         checkStatus,
     }
     const result = await verifiable.credential.verify(options)
-    res.send(result);
+    res.send({
+        verifiableCredential: vc,
+        result: result
+    });
 });
 
 app.listen(PORT, HOST, () => {
